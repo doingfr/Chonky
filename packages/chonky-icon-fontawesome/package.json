@@ -65,7 +65,7 @@
     "@fortawesome/free-brands-svg-icons": "5.13.1",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
     "@fortawesome/react-fontawesome": "^0.1.12",
-    "chonky": "file:../chonky/"
+    "chonky": "https://github.com/doingfr/Chonky/raw/2.x-dev/packages/chonky/chonky-v2.3.2.tgz"
   },
   "homepage": "https://chonky.io/",
   "author": {
