@@ -6438,8 +6438,9 @@ chokidar@^3.4.1, chokidar@^3.4.2, chokidar@^3.5.1:
   optionalDependencies:
     fsevents "~2.3.1"
 
-"chonky@file:packages/chonky":
+"chonky@https://github.com/doingfr/Chonky/raw/2.x-dev/packages/chonky/chonky-v2.3.2.tgz":
   version "2.3.2"
+  resolved "https://github.com/doingfr/Chonky/raw/2.x-dev/packages/chonky/chonky-v2.3.2.tgz#f32b034c85d2b49a70c1cbf003a2563551aa9415"
   dependencies:
     "@material-ui/core" "4.11.3"
     "@reduxjs/toolkit" "^1.5.0"
