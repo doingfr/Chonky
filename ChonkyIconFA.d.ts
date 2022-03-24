@@ -3,7 +3,6 @@
  * @copyright 2020
  * @license MIT
  */
+import { ChonkyIconProps } from 'chonky';
 import React from 'react';
-export interface ToolbarSearchProps {
-}
-export declare const ToolbarSearch: React.FC<ToolbarSearchProps>;
+export declare const ChonkyIconFA: React.FC<ChonkyIconProps>;
