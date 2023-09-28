@@ -8,9 +8,11 @@ import { ToolbarDropdown } from './ToolbarDropdown';
 import { ToolbarInfo } from './ToolbarInfo';
 import { ToolbarSearch } from './ToolbarSearch';
 
-export interface FileToolbarProps {}
+export interface FileToolbarProps {
+    hideSearchBar?: boolean;
+}
 
-export const FileToolbar: React.FC<FileToolbarProps> = React.memo(() => {
+export const FileToolbar: React.FC<FileToolbarProps> = React.memo(({ hideSearchBar = false }) => {
     const classes = useStyles();
     const toolbarItems = useSelector(selectToolbarItems);
 
@@ -39,7 +41,7 @@ export const FileToolbar: React.FC<FileToolbarProps> = React.memo(() => {
         <div className={classes.toolbarWrapper}>
             <div className={classes.toolbarContainer}>
                 <div className={classes.toolbarLeft}>
-                    <ToolbarSearch />
+                    {!hideSearchBar && <ToolbarSearch />}
                     <ToolbarInfo />
                 </div>
                 <div className={classes.toolbarRight}>{toolbarItemComponents}</div>

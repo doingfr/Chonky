@@ -1,4 +1,4 @@
-import { ElementType, UIEvent } from 'react';
+import {  UIEvent } from 'react';
 import { Nullable } from 'tsdef';
 
 import { ChonkyActions } from '../action-definitions/index';
@@ -146,7 +146,7 @@ export interface FileBrowserProps {
      * will only affect the current instance of Chonky. If you wanna set the icon
      * component for all Chonky instances, use the global config.
      */
-    iconComponent?: ElementType<ChonkyIconProps>;
+    iconComponent?: (props: ChonkyIconProps) => React.JSX.Element;
 
     /**
      * Enables dark mode theme.
