@@ -103,10 +103,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TimboKZ/Chonky.git"
+    "url": "git+https://github.com/doingfr/Chonky.git"
   },
   "bugs": {
-    "url": "https://github.com/TimboKZ/Chonky/issues"
+    "url": "https://github.com/doingfr/Chonky/issues"
   },
   "keywords": [
     "file",
